@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Inter, Cinzel} from 'next/font/google'
 
@@ -12,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={cinzel.className}>{children}</body>
+      <body className={cinzel.className}>
+        <Navbar />
+        {children}</body>
     </html>
   )
 }
