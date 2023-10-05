@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
-import { Inter, Cinzel} from 'next/font/google'
+import { Inter, Cinzel} from 'next/font/google'r
 
 const inter = Inter({ subsets: ['latin'] })
 const cinzel = Cinzel({subsets: ['latin']})
